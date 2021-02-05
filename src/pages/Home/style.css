@@ -1,0 +1,43 @@
+.header {
+    text-align: center;
+    align-items: center;
+    display: flexbox;
+}
+
+.titulo {
+    text-align: center;
+    font-size: large;
+    color: black;
+    font-family: sans-serif;
+}
+
+.subtitulo{
+    
+}
+
+
+.leftSide {
+    text-align: center;
+    font-family: sans-serif;
+    display: inline-block;
+    color: #4F4F4F;
+    width: 250px;
+    padding-right: 5px;
+}
+
+.rightSide {
+    text-align: center;
+    font-family: sans-serif;
+    display: inline-block;
+    color: #00BFFF;
+    width: 250px;
+    padding-left: 50px;
+}
+
+.corpo {
+    text-align: center;
+    font-size: xx-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    border-radius: 50%;
+}
