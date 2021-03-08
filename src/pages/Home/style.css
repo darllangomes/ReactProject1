@@ -1,18 +1,19 @@
 .header {
     text-align: center;
     align-items: center;
-    display: flexbox;
+    display: flexbox;   
+    background-color:#000000;
 }
 
 .titulo {
     text-align: center;
     font-size: large;
-    color: black;
+    color: #DCDCDC;
     font-family: sans-serif;
 }
 
 .subtitulo{
-    
+    background-color: #808080;
 }
 
 
@@ -20,24 +21,44 @@
     text-align: center;
     font-family: sans-serif;
     display: inline-block;
-    color: #4F4F4F;
+    color:#D3D3D3;
     width: 250px;
     padding-right: 5px;
+    background-color:#4F4F4F;
+    border-style: groove;
 }
 
 .rightSide {
     text-align: center;
     font-family: sans-serif;
     display: inline-block;
-    color: #00BFFF;
+    color:#D3D3D3;
     width: 250px;
     padding-left: 50px;
+    background-color:#4F4F4F;
+    border-style: groove;
 }
 
-.corpo {
-    text-align: center;
+.main {
+    height: 100vh;
+    display: flex;;
     font-size: xx-large;
+    margin: 0 auto;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-style: normal;
-    border-radius: 50%;
+    width: 100%;
+    background-color:	#C0C0C0;
+    
+}
+
+.navbar{
+ width:350px;
+ background: blue;
+ padding: 24px;
+}
+
+.feed{
+ width: 100%;
+ background: yellow;
+ padding: 24px;
 }
